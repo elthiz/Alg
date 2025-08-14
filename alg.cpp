@@ -20,9 +20,9 @@ void printVector(const std::vector<T>& vec) {
 
 int main()
 {
-	std::vector<int> v{ 31, 41, 59, 26, 41, 58 };
+	std::vector<int> v{ 0, 3, 0, 2, 4, 1, 5, 798, 799, 6, 0 };
 
-	printVector(insertion_sort(v, v.size()));
+	printVector(selection_sort(v));
 	
 	cout << "Hello CMake." << endl;
 	return 0;
